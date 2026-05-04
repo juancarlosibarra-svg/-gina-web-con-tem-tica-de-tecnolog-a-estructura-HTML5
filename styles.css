@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1a202c;
+    margin: 0;
+    line-height: 1.8;
+}
+
+
+.banner-principal {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #3b82f6 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 4px solid #3b82f6;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.banner-principal__titulo { 
+    font-size: 3.5rem; 
+    font-weight: 800; 
+    margin: 0; 
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    /* Sombra de texto para legibilidad y estilo */
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.banner-principal__descripcion { 
+    color: #bfdbfe; 
+    font-size: 1.3rem; 
+    margin-top: 15px; 
+    font-weight: 300;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAVEGACIÓN */
+.menu-navegacion {
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu-navegacion__enlace {
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacion__enlace:hover { color: #60a5fa; }
+
+/* CONTENEDOR Y BLOQUES */
+.contenedor-principal {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.bloque-contenido {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 50px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    border: 1px solid #e2e8f0;
+}
+
+.bloque-contenido__titulo {
+    color: #1e3a8a;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-left: 8px solid #3b82f6;
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+/* TARJETAS */
+.cuadricula-info {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.tarjeta-informativa {
+    flex: 1;
+    background: #f8fafc;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.tarjeta-informativa:hover { 
+    transform: translateY(-8px); 
+    box-shadow: 0 12px 20px rgba(0,0,0,0.05);
+    border-color: #3b82f6; 
+}
+
+/* FORMULARIO */
+.formulario-envio { display: flex; flex-direction: column; }
+.formulario-envio__etiqueta { font-weight: 600; margin-top: 20px; color: #475569; }
+.formulario-envio__campo {
+    padding: 14px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.formulario-envio__campo:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+.formulario-envio__boton {
+    margin-top: 30px;
+    padding: 16px;
+    background: linear-gradient(to right, #1e3a8a, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.pie-pagina { text-align: center; padding: 60px; color: #94a3b8; font-size: 0.9rem; }
