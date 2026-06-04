@@ -3,7 +3,7 @@
 Landing page interactiva diseñada para promover el patrimonio gastronómico tradicional de El Salvador. Este proyecto se enfoca en una experiencia fluida e interactiva en el lado del cliente utilizando JavaScript moderno nativo.
 
 ## 🚀 Enlace del Sitio Publicado
-Puedes visitar el sitio web desplegado aquí: [https://juancarlosibarra-svg.github.io/TAREA-P-gina-web-con-tem-tica-de-tecnolog-a-estructura-HTML5-y-CSS/](https://juancarlosibarra-svg.github.io/TAREA-P-gina-web-con-tem-tica-de-tecnolog-a-estructura-HTML5-y-CSS/) 
+Puedes visitar el sitio web desplegado aquí: [https://juancarlosibarra-svg.github.io/el-rincon-del-izote/](https://juancarlosibarra-svg.github.io/el-rincon-del-izote/)
 
 ## 🛠️ Tecnologías Empleadas
 * **HTML5**: Uso de elementos semánticos para optimizar la estructura y el SEO.
